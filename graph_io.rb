@@ -1,6 +1,6 @@
-require "#{Rails.root}/lib/module/io/read_graph"
-require "#{Rails.root}/lib/module/io/save_graph"
-require "#{Rails.root}/lib/module/io/dot_export"
+require './read_graph'
+require './save_graph'
+require './dot_export'
 
 module GraphIO
   include(ReadGraph)
